@@ -1,0 +1,46 @@
+/* COMMENTAIRE */
+header {color: red;}
+
+/* 
+
+"#" = ID
+#logo {}
+
+"." = CLASS 
+.tete {}
+
+*/
+
+/* TAILLE DE LA POLICE
+    -> Taille absolue
+        Ne prend pas en considération l'utilisateur
+        Pixel (px)
+
+    -> Taille relative
+        Prend en considération l'utilisateur
+        "words" : xx-small / x-small / medium / large / x-Large / xx-Large
+        "em" : 1em = normal / 
+*/
+
+/* UTILISER UNE POLICE PERSO
+
+    Téléchargez la police
+    Des services propres à cette fonction ( Google Font )
+*/
+
+
+p {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1.4em;
+  }
+
+body {
+    font-family: 'Open Sans';
+}
+
+
+
+/* POLICES */
+@font-face {
+    font-family: coolvetica;
+    src: url(../Src/coolvetica.otf) format(truetype);}
